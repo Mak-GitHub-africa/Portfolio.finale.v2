@@ -282,6 +282,6 @@ form input, form textarea {
 @media only screen and (min-width: 600px)
 .last_edit {
     position: relative;
-    top: 275px;
+    bottom: 275px;
     left: auto;
 }
