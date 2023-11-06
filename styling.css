@@ -279,20 +279,9 @@ form input, form textarea {
 	font-size: 25x;	
 }
 
-@media only screen and (min-width: 600px) { 
-/* --- desktop and larger --- */
-	.last_edit{
-		position: relative;
-		bottom: 410px;
-		left: 550;
-	}
-}
-
-@media only screen and (max-width: 1440px) { 
-/* --- desktop and larger --- */
-	.last_edit{
-		position: relative;
-		bottom: 475px;
-		left: 590;
-	}
+@media only screen and (min-width: 600px)
+.last_edit {
+    position: relative;
+    top: 275px;
+    left: auto;
 }
