@@ -279,9 +279,14 @@ form input, form textarea {
 	font-size: 25x;	
 }
 
-@media only screen and (min-width: 600px)
+/* ---- responsive ----*/
+
+@media only screen and (max-width: 600px)
 .last_edit {
     position: relative;
-    bottom: 275px;
+    top: 275px;
     left: auto;
 }
+
+
+
